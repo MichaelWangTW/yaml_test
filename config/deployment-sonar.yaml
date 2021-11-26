@@ -20,7 +20,7 @@ spec:
         app: sonar
     spec:
       containers:
-        - image: noneedname/sonar:latest
+        - image: michaelwangtw/sonarqube-scanner
           imagePullPolicy: Always
           name: spark
           ports:
